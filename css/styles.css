@@ -1,13 +1,23 @@
+h1, h2, h3 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  border: solid red 2px;
+  border-radius: 9px;
+  padding: 10px;
+}
+h1{
+  border: solid #88c0d6 4px;
+  text-align: center;
+}
 #result{
   display: none;
   float: left;
-  width: 40%;
+  width: 45%;
 }
 
 #resultReverse{
   display: none;
   float: left;
-  width: 40%;
+  width: 45%;
   margin-left: 60px;
 
 }
