@@ -4,30 +4,29 @@ var input;
 
 var count = function(number){
   for ( var i = 0 ; i < input ; i+=1){
-    number = number -1;
-    console.log(number);
-    arrayNumbers.push(number);
 
-  }
-}
-
-var ifDivisible = function(number){
   if(number % 15 === 0){
     // number = number.toString();
-    number = "ping-pong";
-    alert(number);
-    console.log(typeof(number));
+    // return "ping-pong";
+    arrayNumbers.push("ping-pong");
+    number = number -1;
+    // console.log(typeof(number));
   }else if(number % 5 === 0 ){
-    number = "pong";
-    alert(number);
+    // return "pong";
+    // alert(number);
+    arrayNumbers.push("pong");
+    number = number -1;
   }else if(number % 3 === 0){
-    number = "ping";
-    alert(number);
+    // alert(number);
+    arrayNumbers.push("ping");
+    number = number -1;
   }else{
-    alert(number);
+    arrayNumbers.push(number);
+    number = number -1;
   }
+  console.log(arrayNumbers);
 };
-
+};
 
 
 $(document).ready(function(){
@@ -39,6 +38,9 @@ $(document).ready(function(){
 
   // ifDivisible(input);
   count(input);
+  console.log(arrayNumbers);
+
+  $("#result").text(arrayNumbers);
 
   });
 });
