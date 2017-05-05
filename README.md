@@ -6,7 +6,7 @@
 
 Specs for Pin Pong:
 
-![Ping Pong](http://imgur.com/vCYdcRQ)
+![Ping Pong](href="img/pingpong.PNG")
 
 ## Setup/Installation Requirements
 
