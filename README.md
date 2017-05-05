@@ -30,8 +30,8 @@
 * JavaScript
 
 ### Github Pages link
+[Link](https://danitlls.github.io/ping-pong/)
 
-*{https://danitlls.github.io/ping-pong/.}*
 
 
 ## License
