@@ -6,8 +6,7 @@
 
 * Specs for Pin Pong:
 
-![Specs](http://i.imgur.com/t7ET2sV.png)
-
+![Specs](http://i.imgur.com/kszNke2.png)
 
 
 ## Setup/Installation Requirements
@@ -32,7 +31,7 @@
 
 ### Github Pages link
 
-*{https://danitlls.github.io/Ping-Pong/}*
+*{https://danitlls.github.io/Ping-Pong/.}*
 
 ## License
 
