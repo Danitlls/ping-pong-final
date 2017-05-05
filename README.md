@@ -6,7 +6,7 @@
 
 Specs for Pin Pong:
 
-![Ping Pong](href="img/pingpong.PNG")
+![Screenshot](pingpong.png)
 
 ## Setup/Installation Requirements
 
