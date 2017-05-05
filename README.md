@@ -31,7 +31,7 @@
 
 ### Github Pages link
 
-*{https://danitlls.github.io/Ping-Pong/.}*
+*{https://danitlls.github.io/ping-pong/}*
 
 ## License
 
