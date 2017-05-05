@@ -47,7 +47,7 @@ $(document).ready(function(){
   reverseArray(arrayNumbers);
   $("#result").append( arrayNumbers);
 
-  $("#result").show();
-  $("#resultReverse").show();
+  $("#result").toggle(800);
+  $("#resultReverse").toggle(500);
   });
 });

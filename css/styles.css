@@ -1,3 +1,6 @@
+body{
+  font-family: 'Play', sans-serif;
+}
 h1, h2, h3 {
   font-family: 'Love Ya Like A Sister', cursive;
   border: solid red 2px;
@@ -8,16 +11,28 @@ h1{
   border: solid #88c0d6 4px;
   text-align: center;
 }
-#result{
+#result, #resultReverse{
   display: none;
   float: left;
   width: 45%;
 }
 
 #resultReverse{
-  display: none;
-  float: left;
-  width: 45%;
   margin-left: 60px;
-
+}
+#form1{
+  text-align: center;
+}
+label{
+  font-size: 25px;
+}
+.btn {
+  padding: 2px 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+input{
+  padding: 4px;
+  border-radius: 5px;
 }

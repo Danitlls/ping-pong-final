@@ -4,7 +4,7 @@
 
 ## Description
 
-Specs for Pin Pong:
+* Specs for Pin Pong:
 
 ![Specs](http://i.imgur.com/t7ET2sV.png)
 
@@ -17,7 +17,7 @@ Specs for Pin Pong:
 
 ## Known Bugs
 
-*
+* It was necessary to add "br" labels to display the array ass a list
 
 ## Support and contact details
 
