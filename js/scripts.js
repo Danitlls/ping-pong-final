@@ -2,13 +2,15 @@ var arrayNumbers = [];
 var input;
 
 
-// var count = function(number){
-//   for ( var i = 0 ; i < input ; i+=1){
-//     var newNumber = number - 1;
-//   }
-//   arrayNumbers.push(newNumber);
-//   console.log(arrayNumbers);
-// }
+var count = function(number){
+  for ( var i = 0 ; i < input ; i+=1){
+    number = number -1;
+    console.log(number);
+    arrayNumbers.push(number);
+
+  }
+}
+
 var ifDivisible = function(number){
   if(number % 15 === 0){
     // number = number.toString();
@@ -26,6 +28,8 @@ var ifDivisible = function(number){
   }
 };
 
+
+
 $(document).ready(function(){
   $("#form1").submit(function(event){
    event.preventDefault();
@@ -33,8 +37,8 @@ $(document).ready(function(){
   input = parseInt($("#userInput").val());
   // console.log(typeof(input));  // input is a number
 
-  ifDivisible(input);
-
+  // ifDivisible(input);
+  count(input);
 
   });
 });
