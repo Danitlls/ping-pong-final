@@ -47,7 +47,12 @@ $(document).ready(function(){
   reverseArray(arrayNumbers);
   $("#result").append( arrayNumbers);
 
-  $("#result").toggle(800);
+  $("#result").toggle(600);
   $("#resultReverse").toggle(500);
+
+  $("#form1").hide();
+  $(".show-number").text(input);
+  $("#user-input").fadeIn(1500);
+
   });
 });

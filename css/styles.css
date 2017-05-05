@@ -1,7 +1,7 @@
 body{
   font-family: 'Play', sans-serif;
 }
-h1, h2, h3 {
+h1, h3 {
   font-family: 'Love Ya Like A Sister', cursive;
   border: solid red 2px;
   border-radius: 9px;
@@ -15,6 +15,10 @@ h1{
   display: none;
   float: left;
   width: 45%;
+}
+#user-input{
+  display: none;
+  text-align: center;
 }
 
 #resultReverse{
