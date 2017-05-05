@@ -6,7 +6,9 @@
 
 Specs for Pin Pong:
 
-![Screenshot](pingpong.png)
+![Specs](http://i.imgur.com/t7ET2sV.png)
+
+
 
 ## Setup/Installation Requirements
 

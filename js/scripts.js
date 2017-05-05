@@ -8,24 +8,30 @@ var count = function(number){
   if(number % 15 === 0){
     // number = number.toString();
     // return "ping-pong";
-    arrayNumbers.push("ping-pong");
+    arrayNumbers.push("<br>" + " ping-pong");
     number = number -1;
     // console.log(typeof(number));
   }else if(number % 5 === 0 ){
     // return "pong";
     // alert(number);
-    arrayNumbers.push("pong");
+    arrayNumbers.push("<br>" +" pong");
     number = number -1;
   }else if(number % 3 === 0){
     // alert(number);
-    arrayNumbers.push("ping");
+    arrayNumbers.push("<br>" +" ping");
     number = number -1;
   }else{
-    arrayNumbers.push(number);
+    arrayNumbers.push("<br>" + number);
     number = number -1;
   }
   console.log(arrayNumbers);
 };
+
+};
+
+var reverseArray = function(arrayN){
+  var arrayDos = arrayN.reverse();
+  console.log(arrayDos);
 };
 
 
@@ -40,7 +46,8 @@ $(document).ready(function(){
   count(input);
   console.log(arrayNumbers);
 
-  $("#result").text(arrayNumbers);
-
+  $("#resultReverse").append( arrayNumbers);
+  reverseArray(arrayNumbers);
+  $("#result").append( arrayNumbers);
   });
 });
