@@ -30,6 +30,10 @@
 * CSS
 * JavaScript
 
+### Github Pages link
+
+*{https://danitlls.github.io/Ping-Pong/}*
+
 ## License
 
 This project is licensed under the MIT License

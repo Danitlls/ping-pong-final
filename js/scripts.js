@@ -41,7 +41,7 @@ $(document).ready(function(){
   input = parseInt($("#userInput").val());
 
   count(input);
-  console.log(arrayNumbers);
+  // console.log(arrayNumbers);
   $("#resultReverse").append(arrayNumbers);
 
   reverseArray(arrayNumbers);
