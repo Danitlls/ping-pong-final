@@ -1,58 +1,40 @@
 //Business logic
 var arrayNumbers = [];
-var input;
 
 var count = function(number){
-  for ( var i = 0 ; i < input ; i+=1){
-
-    if(number % 15 === 0){
-      // number = number.toString();
-      // return "ping-pong";
-      arrayNumbers.push("<br>" + " ping-pong");
-      number = number -1;
-      // console.log(typeof(number));
-    }else if(number % 5 === 0 ){
-      // return "pong";
-      // alert(number);
-      arrayNumbers.push("<br>" +" pong");
-      number = number -1;
-    }else if(number % 3 === 0){
-      // alert(number);
-      arrayNumbers.push("<br>" +" ping");
-      number = number -1;
-    }else{
-      arrayNumbers.push("<br>" + number);
-      number = number -1;
+  for (var i = 1; i <= number; i++) {
+    if (i % 15 === 0) {
+      arrayNumbers.push("ping-pong");
+    } else if (i % 5 === 0 ) {
+      arrayNumbers.push("pong");
+    } else if (i % 3 === 0) {
+      arrayNumbers.push("ping");
+    } else {
+      arrayNumbers.push(i);
     }
-  // console.log(arrayNumbers);
   };
 };
 
-var reverseArray = function(arrayN){
-  var arrayDos = arrayN.reverse();
-};
-
+function printToScreen(target, array) {
+  array.forEach(function(element) {
+    $(target).append('<li>' + element + '</li>')
+  })
+}
 
 //User interface Logic.
-$(document).ready(function(){
-  $("#form1").submit(function(event){
-   event.preventDefault();
-
-  input = parseInt($("#userInput").val());
-
-  count(input);
-  // console.log(arrayNumbers);
-  $("#resultReverse").append(arrayNumbers);
-
-  reverseArray(arrayNumbers);
-  $("#result").append( arrayNumbers);
-
-  $("#result").toggle(600);
-  $("#resultReverse").toggle(500);
-
-  $("#form1").hide();
-  $(".show-number").text(input);
-  $("#user-input").fadeIn(1500);
-
+$(document).ready(function() {
+  $("#form1").submit(function(event) {
+    event.preventDefault();
+    var input = parseInt($("#userInput").val());
+    count(input);
+    // console.log(arrayNumbers);
+    printToScreen("#result", arrayNumbers)
+    arrayNumbers.reverse();
+    printToScreen("#resultReverse", arrayNumbers)
+    $("#result").toggle(600);
+    $("#resultReverse").toggle(500);
+    $("#form1").hide();
+    $(".show-number").text(input);
+    $("#user-input").fadeIn(1500);
   });
 });

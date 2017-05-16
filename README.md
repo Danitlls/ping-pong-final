@@ -1,4 +1,4 @@
-# _Pin Pong_
+# _Ping Pong_
 
 #### By **Daniela Trulls, Friday, May 5th 2017**
 
@@ -16,11 +16,11 @@
 
 ## Known Bugs
 
-* It was necessary to add "br" labels to display the array ass a list
+* None at this time
 
 ## Support and contact details
 
-* Feel free to reach out with suggestions at danielatrulls01@gmail.com
+* Feel free to reach out with suggestions
 ## Technologies Used
 
 **Main Languages used:**
@@ -30,7 +30,7 @@
 * JavaScript
 
 ### Github Pages link
-[ping-pong](https://danitlls.github.io/ping-pong/)
+[ping-pong](https://danitlls.github.io/ping-pong-final/)
 
 
 
